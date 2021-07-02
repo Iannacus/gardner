@@ -183,12 +183,11 @@ a {
     background-color: white;
     padding: 15px;
     box-shadow: 0 0 5px 3px #46454562;
-    transform: scale(1);
     transition: 0.5s;
 }
 
 .row-box:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 0.5s;
 }
 
@@ -198,4 +197,14 @@ a {
 
 .w65 {
     width: 65%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.rbox-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
