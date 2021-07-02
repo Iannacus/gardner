@@ -79,6 +79,8 @@ p {
 }
 .lateral-content {
     width: 60%;
+    position: sticky;
+    top: 50px;
 }
 .lateral-content img {
     margin-top: 30px;
@@ -191,8 +193,16 @@ a {
     transition: 0.5s;
 }
 
+.w100 {
+    width: 100%;
+}
+
 .w35 {
     width: 35%;
+}
+
+.w100 img {
+    width: 40%;
 }
 
 .w65 {
