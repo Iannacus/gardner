@@ -13,6 +13,7 @@ body {
 h1, h2, h3, h4, h5 {
     color: #316a84;
     margin: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 h1 {
     font-size: 48px;
@@ -24,6 +25,22 @@ h2 {
 
 h3 {
     font-size: 32px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+li {
+    font-size: 16px;
+}
+
+p, a, li, button, summary {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 16px;
 }
 
 .center {
@@ -98,13 +115,13 @@ h3 {
 }
 
 .header {
-    width: 80%;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
     .main {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         width: 75%;
         border-bottom-right-radius: 35px;
         border-top-right-radius: 35px;
@@ -134,4 +151,51 @@ details:nth-child(1) {
 .answer {
     font-size: 18px;
     color: #464545fb;
+}
+
+.lateral-menu {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: solid 2px rgb(13, 128, 143);
+    padding: 15px;
+    font-size: 18px;
+}
+.main-content {
+    padding: 10px 0;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+.row {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.row-box {
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 5px 3px #46454562;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.row-box:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.w35 {
+    width: 35%;
+}
+
+.w65 {
+    width: 65%;
 }
